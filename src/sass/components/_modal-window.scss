@@ -27,7 +27,7 @@
 
   &:hover,
   &:focus {
-    background-color: #BBF330;
+    background-color: var(--border-button-color);
   }
 }
 
@@ -35,14 +35,15 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
-  color: #2C2C2C;
+  color: var(--primary-text-color);
+
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
 
 .modal-close-btn-icon {
-  fill: #2C2C2C;
+  fill: var(--primary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .modal-close-btn:hover &,
