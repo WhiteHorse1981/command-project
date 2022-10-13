@@ -3,6 +3,16 @@
 @import "./utils/visually-hidden";
 
 
+@import "./base/base";
+@import "./base/container";
+@import "./base/section";
+
+
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/backdrop";
+
+
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/offerings";
@@ -12,13 +22,7 @@
 @import "./layout/footer";
 
 
-@import "./base/base";
-@import "./base/container";
-@import "./base/section";
 
-@import "./components/modal-window";
-@import "./components/modal-form";
-@import "./components/backdrop";
 
 
 
