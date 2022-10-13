@@ -1,7 +1,7 @@
 .modal-form {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 24px;
 }
 
 .modal-form-field-desc {
@@ -18,7 +18,6 @@
 .modal-form-input-wrapper {
   position: relative;
   display: block;
-  font-weight: 400;
 }
 
 .modal-form-input {
@@ -28,7 +27,7 @@
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   padding-left: 12px;
-  transition: border-color var(--transition-dur-and-func);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -38,86 +37,13 @@
   }
 }
 
-.modal-form-icon {
-  position: absolute;
-  top: 50%;
-  left: 12px;
-  transform: translateY(-50%);
-  display: block;
-  width: 18px;
-  height: 18px;
-
-  .modal-form-input:focus + & {
-      fill: var(--brand-color);
-  }
-}
-
-.modal-form-message {
-  width: 100%;
-  height: 120px;
-  resize: none;
-  padding: 12px 16px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  transition: border-color var(--transition-dur-and-func);
-
-  &:hover,
-  &:focus {
-      cursor: pointer;
-      outline: none;
-      border-color: var(--brand-color);
-  }
-}
-
-.modal-form-check-wrapper {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.modal-form-contract {
-  color: var(--brand-color);
-}
-
-.modal-form-own-check {
-  border: 1px solid #303030;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 10px;
-
-  .modal-form-check:checked + & {
-      background-color: var(--brand-color);
-      border-color: var(--brand-color);
-  }
-
-  .modal-form-check:hover + &,
-  .modal-form-check:focus + & {
-      outline: 2px solid var(--brand-color);
-      border: none;
-  }
-}
-
-.modal-form-own-check-icon {
-  display: none;
-  fill: var(--brand-color);
-}
-
-.modal-form-check:checked + .modal-form-own-check .modal-form-own-check-icon {
-  display: block;
-}
-
 .modal-form-btn {
   min-width: 106px;
   align-self: center;
   padding: 10px 38px;
-
   font-weight: 500;
   font-size: 13px;
   line-height: 150%;
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -130,8 +56,6 @@
   &:hover,
   &:focus {
       background-color: #BBF330;
-      border: 2px solid #7EB101;
-      border-radius: 30px;
   }
 }
 
@@ -139,7 +63,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .modal-form-check-wrapper {
       font-size: 14px;
       line-height: 1.71;
