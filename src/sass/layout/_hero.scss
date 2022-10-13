@@ -6,7 +6,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 1.2;
-    color: #2C2C2C;
+    color: var(--primary-text-color);
     width: 502px;
     margin-top: 160px;
 }
@@ -24,9 +24,8 @@
     font-weight: 500;
     font-size: 13px;
     line-height: 1.5;
-    // text-align: right;
-    color: #2C2C2C;
-    background: #BBF330;
+    color: var(--primary-text-color);
+    background: var(--accent-color);
     border-radius: 30px;
     border: none;
     padding: 6px 18px;
@@ -39,6 +38,6 @@
 }
 
 .hero__right-border {
-    border: 26px solid #FFE550;
+    border: 26px solid var(--border-yellow-color);
     border-radius: 50%;
 }

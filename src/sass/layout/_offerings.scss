@@ -1,0 +1,71 @@
+.offerings__container {
+    display: flex;
+    margin-top: -137px;
+    background-image: url("../images/offerings/desktop/bg-offerings.png");
+    background-repeat: no-repeat;
+}
+
+.offerings__img {
+    margin-top: 177px;
+    margin-bottom: 43px;
+}
+
+.offerings__right-side {
+    margin-left: 90px;
+}
+
+.offerings__title {
+    margin-top: 260px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+}
+
+.offerings__text {
+    margin-top: 20px;
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+}
+
+.offerings__benefits {
+    display: flex;
+    margin-top: 40px;
+}
+
+.offerings__benefits-item:last-child {
+    margin-left: 67px;
+}
+
+.offerings__benefits-title {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--primary-text-color);
+}
+
+.offerings__benefits-text {
+    max-width: 253px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+
+
+}
+
+.offerings__btn {
+    margin-top: 32px;
+    padding: 8px 19px;
+    color: --primary-white-color;
+    border: 2px solid var(--icons-color);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+}
