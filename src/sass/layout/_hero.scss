@@ -1,0 +1,44 @@
+.hero__container {
+    display: flex;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2C2C2C;
+    width: 502px;
+    margin-top: 160px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C2C2C;
+    width: 502px;
+    margin-top: 28px;
+}
+
+.hero__btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    // text-align: right;
+    color: #2C2C2C;
+    background: #BBF330;
+    border-radius: 30px;
+    border: none;
+    padding: 6px 18px;
+    margin-top: 40px;
+
+}
+
+.hero__right-side {
+    margin-left: auto;
+}
+
+.hero__right-border {
+    border: 26px solid #FFE550;
+    border-radius: 50%;
+}

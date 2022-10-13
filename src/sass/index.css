@@ -1,0 +1,159 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --primary-text-color: #2C2C2C;
+  --title-text-color: #2C2C2C;
+  --accent-color: #BBF330;
+  --footer-link-color: #7EB101;
+  --primary-backgraund-color: #FEFEFE;
+  --border-button-color: #7EB101;
+  --background-button-color: #BBF330;
+  --icons-color: #7EB101;
+  --burger-button-color: #7EB101;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero__container {
+  display: flex;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #2C2C2C;
+  width: 502px;
+  margin-top: 160px;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2C2C2C;
+  width: 502px;
+  margin-top: 28px;
+}
+
+.hero__btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2C2C2C;
+  background: #BBF330;
+  border-radius: 30px;
+  border: none;
+  padding: 6px 18px;
+  margin-top: 40px;
+}
+
+.hero__right-side {
+  margin-left: auto;
+}
+
+.hero__right-border {
+  border: 26px solid #FFE550;
+  border-radius: 50%;
+}
+
+.favorites, .favorites-text, .title {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.favorites-text {
+  margin-bottom: 60px;
+}
+
+.favorites__item {
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Roboto", "Arial", "Helvetica", "sans-serif";
+  color: var(--primary-text-color);
+  background-color: var(--primary-backgraund-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media screen and (min-width: 320px) and (max-widht: 479px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=index.css.map */
