@@ -10,28 +10,30 @@
     margin-bottom: 60px;
 }
 
-
-.favorites__item {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-    padding: 9px;
-    border: 11px solid #FFE550;
-    border-radius: 50%;
-    box-sizing: content-box;
-}
-
 .favorites {
     margin-left: auto;
     margin-right: auto;
+
+    & .favorites__item {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        padding: 9px;
+        border: 11px solid #FFE550;
+        border-radius: 50%;
+        box-sizing: content-box;
+
+        &.favorites__item-img {
+            width: 223px;
+            height: auto;
+        }
+    }
 }
 
-.favorites__item-img {
-    width: 223px;
-    height: auto;
-}
+// =========================== от 320px до 767px ============================== 
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+
     .title {
         margin-left: auto;
         margin-right: auto;
@@ -60,7 +62,10 @@
 
 }
 
+// =========================== от 480px ==============================
+
 @media screen and (min-width: 480px) {
+
     .favorites {
         width: 280px;
         margin-left: auto;
@@ -68,7 +73,15 @@
     }
 }
 
+// =========================== от 767px ==============================
+
 @media screen and (min-width: 768px)  {
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
     .title {
         font-weight: 700;
         font-size: 42px;
@@ -91,21 +104,29 @@
         padding: 20px;
         border: 14px solid #FFE550;
         margin: 0;
-    }
 
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-    .favorites__item-img {
-        width: 268px;
-        height: auto;
+        &.favorites__item-img {
+            width: 268px;
+            height: auto;
+        }
     }
 
 }
 
+// =========================== от 1280px ==============================
+
 @media screen and (min-width: 1280px)  {
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .favorites-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+    } 
 
     .favorites__item {
         padding: 24px;
@@ -113,21 +134,10 @@
         margin-bottom: 0;
         margin-right: 0;
         margin-left: 0;
+
+        &.favorites__item-img {
+            width: 315px;
+        }
     }
 
-    .container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-
-    .favorites-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
-    }  
-    
-    .favorites__item-img {
-        width: 315px;
-    }
 }
