@@ -1,0 +1,241 @@
+// .customers{
+//     // background-image: url('../img/mobile/Rectangle-mob.png');
+//     background-size: 320px 769px;
+//     background-repeat: no-repeat;
+//     /* background-position: center; */
+//     height: 769px;
+//     width: 320px;
+//     padding-top: 60px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// @media screen and (min-width: 480px) {
+//   .customers{
+//     // background-image: url('../img/mobile/Rectangle-mob-480.png'); 
+//     background-size: 480px 769px;
+//     width: 480px;
+//       }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .customers{
+//     // background-image: url('../img/tablet/Rectangle-tabl.png'); 
+//     background-size: 768px 554px;
+//     height: 554px;
+//     width: 768px;
+//       }
+// }
+
+// @media screen and (min-width: 1280px) {
+//   .customers{
+//     // background-image: url('../img/desctop/Customers-Say.png'); 
+//     background-size: 1280px 647px;
+//     height: 647px;
+//     width: 1280px;
+//     padding-top: 100px;
+//       }
+// }
+
+
+
+// .container{
+    
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 280px;
+// }
+
+// @media screen and (min-width: 480px) {
+//   .container{
+//     width: 280px; 
+//       }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .container{
+//     width: 704px; 
+//       }
+// }
+
+// @media screen and (min-width: 1280px) {
+//   .container{
+//     width: 1248px; 
+//       }
+// }
+
+// .customers__header{
+//     width: 280px;
+// }
+
+// @media screen and (min-width: 768px) {
+//   .customers__header{
+//     width: 501px; 
+//       }
+// }
+
+
+
+
+// .customers__title{
+    
+// font-weight: 700;
+// font-size: 28px;
+// line-height: 1.18;
+
+// color: var(--primary-text-color);
+// margin-bottom: 20px;
+// }
+
+// @media screen and (min-width: 768px) {
+//     .customers__title{
+//         font-size: 42px;
+//         line-height: 1.17;
+//         }
+//   }
+  
+//  .customers__text{
+//     font-weight: 400;
+// font-size: 14px;
+// line-height: 1.14;
+
+// color: var(--primary-text-color);
+// margin-bottom: 32px;
+//  } 
+
+//  @media screen and (min-width: 768px) {
+//     .customers__text{
+//         font-size: 16px;
+//         line-height: 1.19;
+//         }
+//   }
+
+
+//   .customers__list{
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 24px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     .customers__list{
+        
+//         flex-direction: row;
+//         column-gap: 32px;
+//         }
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     .customers__list{
+//         display: flex;
+//         column-gap: 139px;
+//         }
+//   }
+
+//   .customers__list-container{
+//     padding: 8px 8px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     .customers__list-container{
+//       padding: 12px 12px;
+//     }
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     .customers__list-container{
+//       padding: 14px 14px;
+//     }
+//   }
+
+
+// .customers__list-item{
+//     width: 280px;
+    
+//     background-color: #fff;
+//     border-radius: 0 30px 30px 30px;
+// }
+
+
+// @media screen and (min-width: 768px) {
+//   .customers__list-item{
+//     width: 336px;
+//       }
+// }
+
+// @media screen and (min-width: 1280px) {
+//   .customers__list-item{
+//     width: 501px;
+//       }
+// }
+
+
+// .customers__list-text{
+   
+// font-weight: 700;
+// font-size: 16px;
+// line-height: 1.19;
+// margin-bottom: 40px;
+// color: var(--primary-text-color);
+// }
+
+// @media screen and (min-width: 768px) {
+//     .customers__list-text{
+//         font-size: 18px;
+// line-height: 1.17;
+//         }
+//   }
+
+
+// .customers__list-wrapper{
+// display: flex;
+// column-gap: 16px;
+// align-items: center;
+ 
+//   }
+
+//   .customers__list-clients{
+//     position: relative;
+    
+//   }
+
+
+//   .customers__list-client-name{
+
+// font-weight: 500;
+// font-size: 14px;
+// line-height: 1.5;
+// color: var(--primary-text-color);
+// margin-right: 8px;
+//   }
+
+//   .customers__list-client-caption{
+
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.5;
+
+// color: var(--primary-text-color);
+//   }
+
+//   .customers__list-client-caption::after{
+
+//     position: absolute;
+//     display: block;
+//     content: '';
+//     width: 52px;
+//     right: -50%;
+//     top: 50%;
+//     border: 0.854167px solid #7EB101;
+//     transform: rotate(90deg);
+//   } 
+
+
+//   .customers__list-icon{
+
+//     margin-bottom: 28px;
+//   }
+// Footer
+// © 2022 GitHub, Inc.
+// Footer navigation
+// Terms
