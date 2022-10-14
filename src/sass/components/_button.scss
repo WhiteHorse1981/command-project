@@ -9,8 +9,18 @@
   text-align: center;
 }
 
+.subscribe-btn-color {
+  background-color: var(--background-button-color);
+  border: 0;
+}
+
+.subscribe-btn-color:hover,
+.subscribe-btn-color:focus {
+  background-color: var(--hover-button-color);
+}
+
 .footer-subscribe-btn {
-  border: 0.854167px solid #7eb101;
+  border: 1px solid #7eb101;
   background: #ffffff;
   margin-left: auto;
   margin-right: 30px;
