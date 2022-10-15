@@ -123,6 +123,9 @@
   .customers {
       width: 100%;
   }
+  .customers-list .customers-list__item {
+    width: 100%;
+}
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
