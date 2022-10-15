@@ -1,14 +1,18 @@
 :root {
-    --primary-text-color: #2C2C2C;
-    --title-text-color: #2C2C2C;
-    --accent-color: #BBF330;
-    --footer-link-color: #7EB101;
-    --primary-backgraund-color: #FEFEFE;
-    --primary-white-color: #FFFFFF;
-    --border-button-color: #7EB101;
-    --background-button-color: #BBF330;
-    --icons-color: #7EB101;
-    --burger-button-color: #7EB101;
-    --border-yellow-color: #FFE550;
-
+  --primary-text-color: #2c2c2c;
+  --title-text-color: #2c2c2c;
+  --accent-color: #bbf330;
+  --footer-link-color: #7eb101;
+  --primary-backgraund-color: #fefefe;
+  --primary-white-color: #ffffff;
+  --border-button-color: #7eb101;
+  --background-button-color: #bbf330;
+  --hover-button-color: #B5FF00;
+  --icons-color: #7eb101;
+  --burger-button-color: #7eb101;
+  --border-yellow-color: #ffe550;
+  --placeholder-input-color: #505050;
+  --border-color: #ffe550;
+  --border-hover-color: #bbf330;
+  --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
