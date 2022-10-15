@@ -64,27 +64,17 @@
     .container {
         width: 100%;
     }
-    // .offerings__container,
-    // .offerings__right-side {
-    //     margin: 0;
-    // }
+    
 
-    .offerings__container,
-    .offerings__benefits {
+    .offerings__container {
         display: block;
-        
         background-image: url("../images/offerings/mobile/bg-offerings.png");
-        margin-left: auto;
-        margin-right: auto;
         background-repeat: no-repeat;
         background-size: cover;
+        
     }
-    // .offerings__text {
-    //     max-width: 280px ;
-    // }
-    // .offerings__img{
-    //     margin: 0;
-    // }
+        
+    
 
         .offerings__title {
         max-width: 480px;
@@ -102,34 +92,27 @@
             line-height: 16px;
             
         }
-    // .offerings__right-side,
-    //     .offerings__benefits-item:last-child {
-    //     margin: 0;
-    // }
+    
         .offerings__title,
-        .offerings__text {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .offerings__benefits{
-            max-width: 480px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .offerings__left-side {
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 280px;
-        }
+        .offerings__text,
+        .offerings__benefits,
+        .offerings__left-side,
         .offerings__btn-wrapper {
             margin-left: auto;
             margin-right: auto;
+        }
+        .offerings__benefits, .offerings__btn-wrapper{
             max-width: 480px;
             
         }
+        .offerings__left-side {
+            max-width: 280px;
+        }
+            
         .offerings__img {
             margin-top: 41px;
         }
+        
 
     .offerings__btn {
         margin-top: 32px;
@@ -161,7 +144,7 @@
         margin-top: 28px;
         font-weight: 400;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
     }
     .offerings__btn-link {
         margin-left: 24px;
@@ -173,7 +156,13 @@
     .offerings__chevron {
         fill: #000000;
     }
-    .offerings__icon-chevron{
-        fill: #000000;
-    }
+    
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .offerings__container {
+            
+            background-image: url("../images/offerings/mobile/bg-offerings-480.png");
+        }
+}
+            
