@@ -189,7 +189,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-content {
-    background-image: url('../images/footer/tablet/bg-footer.jpg');
+    background-image: url('../images/footer/tablet/bg-footer-tab.jpg');
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -246,7 +246,7 @@
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .footer-content {
-    background-image: url('../images/footer/tablet/bg-footer@2x.jpg');
+    background-image: url('../images/footer/tablet/bg-footer-tab@2x.jpg');
   }
 }
 
@@ -291,6 +291,10 @@
     margin: 0;
     justify-content: space-between;
     margin-right: 20px;
+  }
+
+  .footer-logo-and-nav {
+    align-items: center;
   }
 }
 
