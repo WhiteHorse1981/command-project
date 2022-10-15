@@ -1,7 +1,7 @@
 
 .offerings__btn {
     margin-top: 32px;
-    margin-bottom: 60px;
+    margin-bottom: 53px;
     padding: 8px 19px;
     color: --primary-white-color;
     border: 2px solid var(--icons-color);
@@ -10,10 +10,23 @@
     font-size: 13px;
     line-height: 1.5;
     color: var(--primary-text-color);
+    transition: var(--transition-dur-func);
+    &:hover,
+    &:focus {
+        border-color: var(--btn-color-action);
+    }
 }
 
 .offerings__benefits-icon {
     fill: var(--icons-color);
+}
+.offerings__btn-wrapper{
+    display: flex;
+    align-items: baseline;
+}
+.offerings__btn-link{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -94,6 +107,7 @@
     }
     .offerings__chevron {
         fill: #000000;
+        // margin-top: 4px;
     }
     .offerings__aple-mid, .offerings__aple-right {
         display: none;
@@ -119,7 +133,7 @@
         background-size: contain;
     }
     .offerings {
-        margin-top: -110px;
+        margin-top: -150px;
     }
     .offerings__img {
         margin-top: 150px;
@@ -153,14 +167,16 @@
     }
     .offerings__btn-wrapper {
         margin-top: 40px;
-        padding-bottom: 100px;
+        
     }
     .offerings__btn-link {
+        
         margin-left: 24px;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.5;
         color: #000000
+
     }
     
     .offerings__aple-mid {
@@ -181,7 +197,7 @@
     }
     .offerings__container{
         display: flex;
-        margin-top: -140px;
+        margin-top: -60px;
         background-image: url("../images/offerings/desktop/bg-offerings.png");
         background-repeat: no-repeat;
         background-size: contain;
