@@ -56,6 +56,11 @@
         margin-top: 28px;
             
     }
+    .hero__content-wrapper {
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
         
         
             
@@ -116,6 +121,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hero__container {
+        padding-top: 72px;
+    }
     .hero__title {
         font-size: 46px;
         margin-top: 160px;
