@@ -151,6 +151,9 @@
     .offerings__chevron {
         fill: #000000;
     }
+    .offerings__aple-mid, .offerings__aple-right {
+        display: none;
+    }
     
 }
 @media screen and (min-width: 468px) and (max-width: 767px){
@@ -179,9 +182,15 @@
     }
     .offerings__title {
         margin-top: 60px;
+        font-size: 42px;
+        line-height: 1.16;
+        max-width: 526px;
     }
     .offerings__text {
         margin-top: 20px;
+        font-size: 16px;
+        line-height: 1.18;
+        max-width: 500px;
     }
     .offerings__benefits {
         display: flex;
@@ -196,6 +205,22 @@
     .offerings__btn-wrapper {
         margin-top: 40px;
         padding-bottom: 100px;
+    }
+    
+    .offerings__aple-mid {
+        margin-bottom: 50px;
+        margin-left: 21px;
+    }
+    .offerings__aple-right {
+        margin-bottom: 70px;
+        margin-left: 44px;
+    }
+}
+
+@media screen and (min-width: 1199px){
+    .offerings__aple-mid,
+    .offerings__aple-right {
+    display: none;
     }
 }
             
