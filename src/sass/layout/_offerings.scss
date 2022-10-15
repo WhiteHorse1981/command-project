@@ -1,62 +1,4 @@
-// .offerings__container {
-//     display: flex;
-//     margin-top: -137px;
-//     background-image: url("../images/offerings/desktop/bg-offerings.png");
-//     background-repeat: no-repeat;
-// }
 
-// .offerings__img {
-//     margin-top: 177px;
-//     margin-bottom: 43px;
-// }
-
-// .offerings__right-side {
-//     margin-left: 90px;
-// }
-
-// .offerings__title {
-//     margin-top: 260px;
-//     font-weight: 700;
-//     font-size: 42px;
-//     line-height: 1.2;
-//     color: var(--primary-text-color);
-// }
-
-// .offerings__text {
-//     margin-top: 20px;
-//     width: 500px;
-//     font-weight: 400;
-//     font-size: 16px;
-//     line-height: 1.5;
-//     color: var(--primary-text-color);
-// }
-
-// .offerings__benefits {
-//     display: flex;
-//     margin-top: 40px;
-// }
-
-// .offerings__benefits-item:last-child {
-//     margin-left: 67px;
-// }
-
-// .offerings__benefits-title {
-//     margin-top: 8px;
-//     font-weight: 700;
-//     font-size: 18px;
-//     line-height: 1.4;
-//     color: var(--primary-text-color);
-// }
-
-// .offerings__benefits-text {
-//     max-width: 253px;
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.5;
-//     color: var(--primary-text-color);
-
-
-// }
 .offerings__btn {
     margin-top: 32px;
     margin-bottom: 60px;
@@ -68,6 +10,10 @@
     font-size: 13px;
     line-height: 1.5;
     color: var(--primary-text-color);
+}
+
+.offerings__benefits-icon {
+    fill: var(--icons-color);
 }
 
 
@@ -124,9 +70,7 @@
             margin-top: 41px;
         }
         
-    .offerings__benefits-icon {
-        fill: var(--icons-color);
-    }
+   
     .offerings__benefits-item {
         margin-top: 28px;
     }
@@ -172,7 +116,7 @@
     .offerings__container {
         background-image: url("../images/offerings/tablet/bg-offerings.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
     .offerings {
         margin-top: -110px;
@@ -201,10 +145,22 @@
     }
     .offerings__benefits-text {
         margin-top: 16px;
+        max-width: 253px;
+
+    }
+    .offerings__benefits-item:last-child {
+        margin-left: 116px;
     }
     .offerings__btn-wrapper {
         margin-top: 40px;
         padding-bottom: 100px;
+    }
+    .offerings__btn-link {
+        margin-left: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #000000
     }
     
     .offerings__aple-mid {
@@ -217,10 +173,31 @@
     }
 }
 
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 1280px){
     .offerings__aple-mid,
-    .offerings__aple-right {
+    .offerings__aple-right,
+    .offerings__btn-link {
     display: none;
     }
+    .offerings__container{
+        display: flex;
+        margin-top: -140px;
+        background-image: url("../images/offerings/desktop/bg-offerings.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .offerings__title {
+        margin-top:260px;
+    }
+    .offerings__right-side {
+        margin-left: 90px;
+    }
+    .offerings__benefits-text {
+        line-height: 1.5;
+    }
+    .offerings__benefits-item:last-child {
+        margin-left: 67px;
+    }
+    
 }
             
