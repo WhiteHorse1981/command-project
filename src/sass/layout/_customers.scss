@@ -1,5 +1,4 @@
-.customers{
-    /* background-image: url('../img/mobile/Rectangle-mob.png'); */
+.customers {
     background-image: url('../images/customers/mobile/bg-customers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,122 +8,121 @@
     padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
+
+    & .customers-title{
+
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.18;
+      
+      color: var(--primary-text-color);
+      margin-bottom: 20px;
+
+  }
+
+    & .customers-text {
+      margin-bottom: 32px;
+      color: var(--primary-text-color);
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.14; 
+  } 
 }
 
-.customers__title{
-    
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.18;
-  
-  color: var(--primary-text-color);
-  margin-bottom: 20px;
-  }
-  
-  .customers__text{
-    font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  
-  color: var(--primary-text-color);
-  margin-bottom: 32px;
-  } 
-  
-  .customers__list{
+  .customers-list {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-  }
-  
-  .customers__list-item{
-    width: 280px;
-    
-    background-color: #fff;
-    border-radius: 0 30px 30px 30px;
-  }
-  
-  .customers__list-container{
-    padding: 8px 8px;
+
+    & .customers-list__item {
+      width: 280px;    
+      background-color: #fff;
+      border-radius: 0 30px 30px;
+
+      & .customers-list__item-container {
+        padding: 8px;
+      }
+    }
   }
 
-  .stars-container{
+.stars {
     display: flex;
     column-gap: 4px;
-  }
+}
 
-  .customers__list-icon{
-    fill: var(--border-yellow-color);
-  }
+.stars__icon {
+  fill: var(--border-yellow-color);
+}
   
   
-  .customers__list-text{
-     
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.19;
-    margin-bottom: 40px;
-    color: var(--primary-text-color);
-        }
+.customers-list-text {
+    
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 40px;
+  color: var(--primary-text-color);
+}
 
-  .customers__list-wrapper{
-    display: flex;
-    column-gap: 16px;
-    align-items: center;
- 
-            }
+.customers-list-wrapper {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+
+}
     
-  .customers__list-clients{
-        position: relative;       
-      }
-    
-    
-  .customers__list-client-name{
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--primary-text-color);
-      }
-    
-  .customers__list-client-caption{
-    
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.5;
-    
-      color: var(--primary-text-color);
-      }
-    
-  .customers__list-client-caption::after{
-    
-        position: absolute;
-        display: block;
-        content: '';
-        width: 52px;
-        right: -50%;
-        top: 50%;
-        left: 88%;
-        border: 0.854167px solid #7EB101;
-        transform: rotate(90deg);
-      } 
+.customers-list-wrapper__clients {
+      position: relative;       
+}
     
     
-  .customers__list-icon{  
-        margin-bottom: 28px;
-      }
+.customers-list-wrapper__clients-name{
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+    
+.customers-list-wrapper__clients-caption{
+    
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+    
+.customers-list-wrapper__clients-caption::after { 
+  position: absolute;
+  display: block;
+  content: '';
+  width: 52px;
+  right: -50%;
+  top: 50%;
+  left: 88%;
+  border: 0.854167px solid #7EB101;
+  transform: rotate(90deg);
+} 
+    
+    
+.stars__icon {  
+  margin-bottom: 28px;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .container {
-        width: 100%;
-     }
+  .container {
+      width: 100%;
+  }
 
-     .customers__list-item {
-        width: 100%;
-    }
+  .customers-list__item {
+    width: 100%;
+  }
 
-    .customers {
-        width: 100%;
-    }
+  .customers {
+      width: 100%;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
@@ -140,7 +138,7 @@
     background-image: url('../images/customers/mobile/bg-customers-480.jpg'); 
     background-size: cover;;
     width: 320px;
-      }
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
@@ -158,37 +156,49 @@
     background-size: cover;
     height: 554px;
     width: 768px;
-      }
+  }
 
-   .customers__title{
-      font-size: 42px;
-      line-height: 1.17;
-            }
+  .customers-title {
+    font-size: 42px;
+    line-height: 1.17;
+  }
     
-    .customers__text{
-      font-size: 16px;
-      line-height: 1.19;
-              }
+  .customers-text{
+    font-size: 16px;
+    line-height: 1.19;
+  }
     
-    .customers__list{
-            
-      flex-direction: row;
-      column-gap: 32px;
-                }
+  .customers-list{
+          
+    flex-direction: row;
+    column-gap: 32px;
+  }
     
-    .customers__list-container{
-      padding: 12px 12px;
-                }
+  .customers-list__item-container {
+    padding: 12px 12px;
+  }
     
-    .customers__list-item{
-       width: 336px;
-                    }
+  .customers-list .customers-list__item {
+    width: 336px;
+  }
     
-    .customers__list-text{
-       font-size: 18px;
-       line-height: 1.17;
-                      }
-      }
+  .customers-list-text {
+    font-size: 18px;
+    line-height: 1.17;
+  }
+
+  .customers .customers-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+  }
+
+  .customers .customers-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+}
 
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
@@ -200,27 +210,27 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .customers{
+  .customers {
     background-image: url('../images/customers/desktop/bg-customers.jpg'); 
     background-size: cover;
     height: 647px;
     width: 1280px;
     padding-top: 100px;
-      }
+  }
 
-  .customers__list{
+  .customers-list{
     display: flex;
     column-gap: 139px;
-            }
+  }
     
-  .customers__list-container{
+  .customers-list__item-container {
     padding: 14px 14px;
-            }
+  }
     
-  .customers__list-item{
+  .customers-list .customers-list__item {
     width: 501px;
-                }
-      }
+  }
+}
 
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
