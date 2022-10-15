@@ -77,7 +77,7 @@
     
 
         .offerings__title {
-        max-width: 480px;
+        max-width: 467px;
         margin-top: 60px;
         font-weight: 700;
         font-size: 28px;
@@ -85,7 +85,7 @@
     }
 
         .offerings__text {
-            max-width: 480px;
+            max-width: 467px;
             margin-top: 28px;
             font-weight: 400;
             font-size: 14px;
@@ -102,7 +102,7 @@
             margin-right: auto;
         }
         .offerings__benefits, .offerings__btn-wrapper{
-            max-width: 480px;
+            max-width: 467px;
             
         }
         .offerings__left-side {
@@ -140,7 +140,7 @@
     }
     .offerings__benefits-text{
         margin-top: 16px;
-        max-width: 480px;
+        max-width: 467px;
         margin-top: 28px;
         font-weight: 400;
         font-size: 14px;
@@ -158,11 +158,42 @@
     }
     
 }
+@media screen and (min-width: 468px) and (max-width: 767px){
+    .offerings__title, .offerings__text, .offerings__benefits,
+        .offerings__btn-wrapper, .offerings__benefits-text {max-width: 280px;
+        }
+}
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .offerings__container {
             
             background-image: url("../images/offerings/mobile/bg-offerings-480.png");
         }
+}
+@media screen and (min-width: 768px) {
+    .offerings__container {
+        background-image: url("../images/offerings/tablet/bg-offerings.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .offerings {
+        margin-top: -110px;
+    }
+    .offerings__img {
+        margin-top: 150px;
+    }
+    .offerings__title {
+        margin-top: 60px;
+    }
+    .offerings__text {
+        margin-top: 20px;
+    }
+    .offerings__benefits {
+        display: flex;
+        margin-top: 40px;
+    }
+    .offerings__benefits-title {
+        margin-top: 8px;
+    }
 }
             
