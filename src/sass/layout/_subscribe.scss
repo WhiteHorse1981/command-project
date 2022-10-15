@@ -1,0 +1,17 @@
+@media screen and (max-width: 479px) {
+  .subscribe-title {
+    width: 100%;
+  }
+}
+
+.subscribe__img {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe-title {
+    width: 280px;
+    text-align: start;
+    margin-left: 20px;
+  }
+}
