@@ -25,16 +25,19 @@
   .subscribe-block {
     top: -64px;
   }
-}
 
-@media screen and (max-width: 565px) {
   .subscribe-btn-color {
     display: block;
     margin-left: auto;
   }
 }
 
+
+
 @media screen and (max-width: 479px) {
+  .subscribe__content {
+    width: 100%;
+  }
   .subscribe-input {
     width: 100%;
   }
@@ -71,13 +74,18 @@
   position: relative;
 }
 
+.subscribe__content {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 480px) {
-  .subscribe-input {
-    width: 395px;
-  }
 
   .subscribe-input {
-    margin-right: 22px;
+    width: 280px;
+  }
+
+  .subscribe__content {
+    width: 280px;
   }
 }
 
@@ -97,6 +105,11 @@
     margin-bottom: 24px;
   }
 
+  .subscribe-input {
+    margin-right: 22px;
+    width: 395px;
+  }
+
   .subscribe__img {
     margin-left: auto;
     margin-bottom: 20px;
@@ -104,6 +117,10 @@
 
   .subscribe-block {
     top: -74px;
+  }
+
+  .subscribe__content {
+    width: 704px;
   }
 }
 
