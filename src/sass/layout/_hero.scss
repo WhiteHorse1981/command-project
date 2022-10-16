@@ -20,12 +20,14 @@
     padding: 6px 18px;
     margin-top: 40px;
     transition: var(--transition-dur-func);
+   
     &:hover,
     &:focus {
         background-color: var(--hover-button-color);
     }
 
 }
+
 
 
 
@@ -146,7 +148,17 @@
         border: 26px solid var(--border-yellow-color);
         margin-left: 150px;
         margin-top: -250px;
+        position: relative;
         
+    }
+    .hero__btn-left {
+    position: absolute;
     }
         
 }
+.hero__btn-left, .hero__btn-right {
+    border: none;
+    background-color: transparent;
+}
+        
+    
