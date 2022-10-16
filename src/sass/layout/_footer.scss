@@ -272,7 +272,7 @@
   }
   .logo-nav-subcribe-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-start;
   }
 
@@ -312,10 +312,17 @@
   }
   .input-footer-mail {
     display: inline;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
   }
   .footer-subscribe-btn {
     display: inline;
     margin-right: 0;
+  }
+  .footer-settings-list {
+    margin-left: 0;
   }
 }
 
