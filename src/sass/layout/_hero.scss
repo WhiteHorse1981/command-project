@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 .hero__btn {
     font-weight: 500;
     font-size: 13px;
@@ -147,15 +136,27 @@
     .hero__right-border {
         border: 26px solid var(--border-yellow-color);
         margin-left: 150px;
-        margin-top: -250px;
-        position: relative;
-        
+        margin-top: -250px;     
     }
-    .hero__btn-left {
+   .hero__right-border {
+    position: relative;
+   }
+
+   .hero__btn {
     position: absolute;
+   }
+   .hero__btn-left.hero__btn {
+    top: 200px;
+    left: -60px;
+    }
+
+    .hero__btn-right.hero__btn {
+        top: 200px;
+        right: -60px;
     }
         
 }
+
 .hero__btn-left, .hero__btn-right {
     border: none;
     background-color: transparent;
