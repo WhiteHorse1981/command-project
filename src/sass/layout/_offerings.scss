@@ -107,13 +107,14 @@
     }
     .offerings__chevron {
         fill: #000000;
-        // margin-top: 4px;
     }
     .offerings__aple-mid, .offerings__aple-right {
         display: none;
     }
     
 }
+
+
 @media screen and (min-width: 468px) and (max-width: 767px){
     .offerings__title, .offerings__text, .offerings__benefits,
         .offerings__btn-wrapper, .offerings__benefits-text {max-width: 280px;
@@ -126,6 +127,7 @@
             background-image: url("../images/offerings/mobile/bg-offerings-480.png");
         }
 }
+
 @media screen and (min-width: 768px) {
     .offerings__container {
         background-image: url("../images/offerings/tablet/bg-offerings.png");
@@ -133,7 +135,7 @@
         background-size: contain;
     }
     .offerings {
-        margin-top: -150px;
+        margin-top: -170px;
     }
     .offerings__img {
         margin-top: 150px;
@@ -189,6 +191,7 @@
     }
 }
 
+
 @media screen and (min-width: 1280px){
     .offerings__aple-mid,
     .offerings__aple-right,
@@ -197,7 +200,7 @@
     }
     .offerings__container{
         display: flex;
-        margin-top: -60px;
+        margin-top: -30px;
         background-image: url("../images/offerings/desktop/bg-offerings.png");
         background-repeat: no-repeat;
         background-size: contain;
@@ -216,4 +219,5 @@
     }
     
 }
+
             
