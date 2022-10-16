@@ -117,6 +117,7 @@
   margin-left: auto;
   margin-right: 30px;
   margin-bottom: 20px;
+  transition: var(--transition-dur-func);
 }
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
@@ -152,7 +153,7 @@
   column-gap: 32px;
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .footer-labe {
@@ -232,7 +233,7 @@
     margin-bottom: 100px;
   }
   .footer-settings-list {
-    margin-left: 33px;
+    margin-left: 20px;
   }
   .setting-list-and-labe {
     display: flex;
@@ -269,17 +270,27 @@
     align-items: baseline;
     column-gap: 13px;
   }
+  .logo-nav-subcribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
   .footer-subscribe {
-    margin-right: 20px;
+    // margin: 0 auto;
+    // display: block;
+    margin: 0;
   }
   .footer-logo-link {
     display: block;
-    margin-left: 33px;
+    margin-left: 0;
     margin-bottom: 0;
+    margin-right: 148px;
   }
   .footer-nav {
     margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
   .footer-nav__items:not(:last-child) {
     margin: 0;
@@ -294,7 +305,17 @@
   }
 
   .footer-logo-and-nav {
+    justify-content: flex-start;
     align-items: center;
+    width: 532px;
+    margin-right: 255px;
+  }
+  .input-footer-mail {
+    display: inline;
+  }
+  .footer-subscribe-btn {
+    display: inline;
+    margin-right: 0;
   }
 }
 
