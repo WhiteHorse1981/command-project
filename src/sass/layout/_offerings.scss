@@ -130,7 +130,7 @@
     .offerings__container {
         background-image: url("../images/offerings/tablet/bg-offerings.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     .offerings {
         margin-top: -170px;
@@ -189,6 +189,12 @@
         margin-bottom: 70px;
         margin-left: 44px;
     }
+
+    .offerings__left-side {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+    }
 }
 
 
@@ -203,7 +209,7 @@
         margin-top: -30px;
         background-image: url("../images/offerings/desktop/bg-offerings.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     .offerings__title {
         margin-top:260px;
@@ -220,6 +226,10 @@
     }
     .offerings__benefits-item:last-child {
         margin-left: 67px;
+    }
+
+    .offerings__left-side {
+        padding-bottom: 43px;
     }
     
 }
