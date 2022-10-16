@@ -118,7 +118,27 @@
             margin-left: auto;
         }
     
+        .hero__right-border {
+        position: relative;
+        }
+    
+        .hero__btn {
+        position: absolute;
+        }
 
+        .hero__thumb-left, .hero__thumb-right {
+            width: 34px;
+            height: 28px;
+        }
+
+        .hero__btn-left.hero__btn {
+            top: 85px;
+            left: -42px;
+        }
+        .hero__btn-right.hero__btn{
+            top: 85px;
+            right: -42px; 
+        }
     
 }
 
@@ -138,22 +158,31 @@
         margin-left: 150px;
         margin-top: -250px;     
     }
-   .hero__right-border {
-    position: relative;
-   }
 
-   .hero__btn {
-    position: absolute;
-   }
-   .hero__btn-left.hero__btn {
-    top: 200px;
-    left: -60px;
+    .hero__btn-left.hero__btn {
+        top: 200px;
+        left: -60px;
     }
 
     .hero__btn-right.hero__btn {
         top: 200px;
         right: -60px;
     }
+
+    .hero__btn-left.hero__btn {
+        top: 200px;
+        left: -60px;
+        }
+    
+        .hero__btn-right.hero__btn {
+            top: 200px;
+            right: -60px;
+        }
+
+        .hero__thumb-left, .hero__thumb-right {
+            width: 48px;
+            height: 40px;
+        }
         
 }
 

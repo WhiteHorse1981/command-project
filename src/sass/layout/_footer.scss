@@ -24,7 +24,6 @@
   display: block;
   margin-left: 20px;
   margin-bottom: 20px;
-  margin-right: auto;
 }
 
 .footer-logo-icon {
@@ -56,7 +55,7 @@
 .footer-logo-and-nav {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
 }
 
@@ -69,8 +68,6 @@
 .footer-nav {
   margin-bottom: 20px;
   padding-left: 0;
-  margin-left: 45px;
-  margin-right: 120px;
 }
 
 .footer-subscribe {
@@ -148,7 +145,7 @@
 
 .footer-settings-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   column-gap: 32px;
   padding: 0;
@@ -188,6 +185,25 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer-logo-and-nav {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-logo-link {
+     margin-left: 0px;
+     margin-right: 95px;
+  }
+
+  .subscribing-text {
+    margin-left: 0px;
+}
+
+  
+}
+
+
 @media screen and (min-width: 768px) {
   .footer-content {
     background-image: url('../images/footer/tablet/bg-footer-tab.jpg');
@@ -210,16 +226,17 @@
   }
   .footer-logo-link {
     display: block;
-    margin-left: 33px;
+    margin-left: 0px;
     margin-bottom: 40px;
+    margin-right: 128px;
   }
   .footer-subscribe-title {
-    margin-left: 33px;
+    margin-left: 0px;
   }
   .input-footer-mail {
     display: inline-block;
     margin-right: auto;
-    margin-left: 30px;
+    margin-left: 0px;
     padding: 0;
     padding-left: 12px;
     margin-right: 13px;
@@ -229,20 +246,31 @@
     display: inline-block;
   }
   .subscribing-text {
-    margin-left: 33px;
+    margin-left: 0px;
     margin-bottom: 100px;
   }
   .footer-settings-list {
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .setting-list-and-labe {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    /* width: 740px;
-      height: 100%; */
   }
+
+  .footer-settings__link, .footer-labe, .subscribing-text {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+  .footer-logo-and-nav {
+    justify-content: start;
 }
+
+}
+
+
+
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
