@@ -162,6 +162,8 @@
     .offerings__benefits-text {
         margin-top: 16px;
         max-width: 253px;
+        font-size: 14px;
+            line-height: 1.14;
 
     }
     .offerings__benefits-item:last-child {
@@ -207,6 +209,10 @@
     }
     .offerings__title {
         margin-top:260px;
+    }
+    .offerings__text {
+        font-size: 16px;
+        line-height: 1.5;
     }
     .offerings__right-side {
         margin-left: 90px;
