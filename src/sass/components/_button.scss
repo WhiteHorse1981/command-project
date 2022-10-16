@@ -12,6 +12,7 @@
 .subscribe-btn-color {
   background-color: var(--background-button-color);
   border: 0;
+  transition: background-color var(--transition-dur-func);
 }
 
 .subscribe-btn-color:hover,
