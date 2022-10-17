@@ -1,0 +1,30 @@
+.subscribe-btn {
+  border-radius: 30px;
+  padding: 11px 22px;
+  min-width: 103px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+.subscribe-btn-color {
+  background-color: var(--background-button-color);
+  border: 0;
+  transition: background-color var(--transition-dur-func);
+}
+
+.subscribe-btn-color:hover,
+.subscribe-btn-color:focus {
+  background-color: var(--hover-button-color);
+}
+
+.footer-subscribe-btn {
+  border: 1px solid #7eb101;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  display: block;
+}

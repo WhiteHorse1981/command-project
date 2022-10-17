@@ -1,0 +1,150 @@
+@media screen and (max-width: 767px) {
+  .subscribe {
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+
+  .subscribe__title {
+    text-align: start;
+  }
+
+  .subscribe__text {
+    margin-bottom: 40px;
+  }
+
+  .subscribe-input {
+    margin-bottom: 20px;
+  }
+
+  .subscribe__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+  }
+
+  .subscribe-block {
+    top: -64px;
+  }
+
+  .subscribe-btn-color {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 479px) {
+  .subscribe__content {
+    width: 100%;
+  }
+  .subscribe-input {
+    width: 100%;
+  }
+  
+  .subscribe-input {
+    display: block;
+  }
+}
+
+
+.subscribe__title {
+  width: 100%;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subscribe__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.subscribe__img {
+  display: block;
+}
+
+.subscribe-input {
+  outline: none;
+}
+
+.subscribe-block {
+  position: relative;
+}
+
+.subscribe__content {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+
+  .subscribe-input {
+    width: 280px;
+  }
+
+  .subscribe__content {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    padding-top: 0;
+    padding-bottom: 27px;
+  }
+
+  .subscribe__title {
+    font-size: 42px;
+  }
+
+  .subscribe__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  .subscribe-input {
+    margin-right: 22px;
+    width: 395px;
+  }
+
+  .subscribe__img {
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-block {
+    top: -74px;
+  }
+
+  .subscribe__content {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .subscribe {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .subscribe-input {
+    margin-right: 32px;
+  }
+
+  .subscribe-block {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+  }
+
+  .subscribe__img {
+    margin-bottom: 0;
+  }
+
+  .subscribe-block {
+    top: -64px;
+  }
+}
