@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"fAEAN":[function(require,module,exports) {
+})({"bFOAz":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
@@ -517,6 +517,6 @@ $(".slider").slick({
     draggable: false
 });
 
-},{}]},["fAEAN","dV6cC"], "dV6cC", "parcelRequired7c6")
+},{}]},["bFOAz","dV6cC"], "dV6cC", "parcelRequired7c6")
 
 //# sourceMappingURL=index.e82f28a0.js.map

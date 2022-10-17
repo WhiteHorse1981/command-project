@@ -390,11 +390,13 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         varius enim in eros elementum tristique.
       </p>
-      <label for="subscribe" class="visually-hidden">E-mail</label>
-      <input type="email" name="user_email" id="subscribe" placeholder="Enter your email" class="subscribe-input subscribe-input-size">
-      <button class="subscribe-btn subscribe-btn-color" type="submit">
+      <form>
+        <label for="subscribe" class="visually-hidden">E-mail</label>
+        <input type="email" name="user_email" id="subscribe" placeholder="Enter your email" class="subscribe-input subscribe-input-size">
+        <button class="subscribe-btn subscribe-btn-color" type="submit">
         Subscribe
-      </button>
+        </button>
+      </form>
     </div>
   </div>
 </section>
@@ -462,10 +464,12 @@
       </div>
       <div class="footer-subscribe">
         <p class="footer-subscribe-title">Subscribe</p>
-        <input type="email" class="subscribe-input input-footer-mail" required="" placeholder="Enter your email" name="footer_mail_numb">
-        <button type="submit" class="subscribe-btn footer-subscribe-btn">
-          Subscribe
-        </button>
+        <form>
+          <input type="email" class="subscribe-input input-footer-mail" required="" placeholder="Enter your email" name="footer_mail_numb">
+          <button type="submit" class="subscribe-btn footer-subscribe-btn">
+            Subscribe
+          </button>
+        </form>
         <p class="subscribing-text">
           By subscribing you agree to with our
           <span><a class="subscribing-text-link-color" href="">Privacy Policy</a></span>
@@ -492,6 +496,8 @@
     <script src="/index.c86c5a31.js" defer=""></script>
     <script src="/index.f9b3b06b.js" defer=""></script>
 
+
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="/index.e82f28a0.js" defer=""></script>
