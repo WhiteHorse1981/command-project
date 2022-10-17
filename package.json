@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://WhiteHorse1981.github.io/command-project",
+  "homepage": "https://WhiteHorse1981.github.io/command-project/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /command-project/"
