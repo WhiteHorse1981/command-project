@@ -7,11 +7,12 @@
   height: 100%;
   opacity: 1;
   background-color: rgba(94, 99, 99, 0.7);;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform, cubic-bezier(.17, .67, .96, .06) 350ms, opacity 1000ms, background-color 6000ms;
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0) rotate(180deg) translate(-23px, 80px) skew(-20deg, -41deg);
 }

@@ -17,9 +17,6 @@
 
 }
 
-
-
-
 .hero__right-border {
     border: 26px solid var(--border-yellow-color);
     border-radius: 50%;
@@ -72,7 +69,7 @@
     margin-top: 28px;
 }
             
-    .hero__right-border {
+    .slider {
         display: none;
     }
 }
@@ -155,8 +152,57 @@
             top: 50%;
             right: 4px;
         }
+
+        .slick-track{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .slick-list {
+            overflow: hidden;
+        }
+
+        .slick-list:hover {
+            cursor: pointer;
+        }
+
+        .slider {
+            border: 14px solid var(--border-yellow-color);
+            min-width: 0;
+            width: 340px;
+            border-radius: 50%;
+            margin-top: -15px;
+            margin-left: 40px;
+            position: relative;
+        }
+
+        .slider .slick-arrow {
+            position: absolute;
+            margin-top: -14px;
+            top: 50%;
+            z-index: 10;
+            font-size: 0;  
+            width: 34px;
+            height: 28px; 
+            border: none;
+            border-radius: 4px;   
+        }
     
-    
+        .slider .slick-arrow.slick-prev {   
+            background: url('../images/hero/desktop/left.svg') #ffffff center no-repeat;
+            background-size: 35%;
+            left: -25px;
+        }
+        
+        .slider .slick-arrow.slick-next {
+            background: url('../images/hero/desktop/right.svg') #ffffff center no-repeat;
+            background-size: 35%;
+            right: -25px;
+        }
+
+        .slider .slick-arrow.slick-disabled {
+            opacity: 0.5;
+        }    
 }
 
 @media screen and (min-width: 1280px) {
@@ -193,19 +239,83 @@
             width: 48px;
             height: 40px;
         }
-        
+
+    .slider {
+        border: 26px solid var(--border-yellow-color);
+        min-width: 0;
+        width: 592px;
+        border-radius: 50%;
+        margin-top: -15px;
+        margin-left: 40px;
+        position: relative;
+    }
+
+    .slider.slick-initialized.slick-slider {
+        position: relative;
+        top: -235px;
+    }
+
+    .offerings.section {
+        margin-top: -400px;
+    }
+
+    .slider .slick-arrow {
+        position: absolute;
+        margin-top: -20px;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;  
+        width: 48px;
+        height: 40px; 
+        border: none;
+        border-radius: 4px;   
+    }
+
+    .slider .slick-arrow.slick-prev {   
+        background: url('../images/hero/desktop/left.svg') #ffffff center no-repeat;
+        left: -42px;
+    }
+    
+    .slider .slick-arrow.slick-next {
+        background: url('../images/hero/desktop/right.svg') #ffffff center no-repeat;
+        right: -42px;
+    }
+       
 }
 
-.hero__btn-left, .hero__btn-right {
-    border: none;
-    background-color: transparent;
-    fill: var(--primary-text-color);
-    &:hover {
-        fill: var(--burger-button-color);
-    }
-    &:focus {
-        fill:var(--primary-text-color) ;
-    }
-}
         
-    
+// /* Слайдер */
+// .slick-slider{}
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized{}
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted{}
+// /* Ограничивающая оболочка */
+// .slick-list {}
+// /* Лента слайдов */
+// .slick-track{}
+// /* Слайд */
+// .slick-slide{}
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active{}
+// /* Слайд основной */
+// .slick-slide.slick-current{}
+// /* Слайд по центру */
+// .slick-slide.slick-center{}
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned{}
+// /* Стрелка */
+// .slick-arrow{}
+// /* Стрелка влево */
+// .slick-arrow.slick-prev{}
+// /* Стрелка вправо */
+// .slick-arrow.slick-next{}
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled{}
+// /* Точки (булиты) */
+// .slick-dots{}
+// .slick-dots li{}
+// /* Активная точка */
+// .slick-dots li.slick-active{}
+// /* Элемент точки */
+// .slick-dots li button{}
