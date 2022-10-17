@@ -101,10 +101,10 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 1.5;
-        color: #000000
+        color: var(--full-black-color);
     }
     .offerings__chevron {
-        fill: #000000;
+        fill: var(--full-black-color);
     }
     .offerings__aple-mid, .offerings__aple-right {
         display: none;
@@ -177,7 +177,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 1.5;
-        color: #000000
+        color: var(--full-black-color);
 
     }
     
