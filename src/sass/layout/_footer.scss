@@ -9,8 +9,8 @@
   background-image: url('../images/footer/mobile/bg-footer.jpg');
   padding-top: 60px;
   padding-bottom: 60px;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
 }
@@ -282,6 +282,7 @@
 @media screen and (min-width: 1280px) {
   .footer-content {
     background-image: url('../images/footer/desktop/bg-footer.jpg');
+    background-size: cover;
   }
   .footer-container {
     width: 1280px;

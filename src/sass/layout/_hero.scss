@@ -122,7 +122,7 @@
         position: relative;
         }
     
-        .hero__btn {
+        .hero__thumb-left, .hero__thumb-right {
         position: absolute;
         }
 
@@ -139,6 +139,20 @@
             top: 85px;
             right: -42px; 
         }
+
+        .hero__btn-left {
+            position: absolute;
+            margin-top: -14px;
+            top: 50%;
+            left: -30px;
+        }
+        .hero__btn-right {
+            position: absolute;
+            margin-top: -14px;
+            top: 50%;
+            right: 4px;
+        }
+    
     
 }
 
@@ -159,25 +173,18 @@
         margin-top: -250px;     
     }
 
-    .hero__btn-left.hero__btn {
-        top: 200px;
-        left: -60px;
+    .hero__btn-left {
+        position: absolute;
+        margin-top: -20px;
+        top: 50%;
+        left: -46px;
     }
-
-    .hero__btn-right.hero__btn {
-        top: 200px;
-        right: -60px;
+    .hero__btn-right {
+        position: absolute;
+        margin-top: -20px;
+        top: 50%;
+        right: 0;
     }
-
-    .hero__btn-left.hero__btn {
-        top: 200px;
-        left: -60px;
-        }
-    
-        .hero__btn-right.hero__btn {
-            top: 200px;
-            right: -60px;
-        }
 
         .hero__thumb-left, .hero__thumb-right {
             width: 48px;
