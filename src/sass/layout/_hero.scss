@@ -130,6 +130,9 @@
             width: 34px;
             height: 28px;
         }
+        .hero__btn {
+            position: relative;
+        }
 
         .hero__btn-left.hero__btn {
             top: 85px;
@@ -196,6 +199,13 @@
 .hero__btn-left, .hero__btn-right {
     border: none;
     background-color: transparent;
+    fill: var(--primary-text-color);
+    &:hover {
+        fill: var(--burger-button-color);
+    }
+    &:focus {
+        fill:var(--primary-text-color) ;
+    }
 }
         
     
