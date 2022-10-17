@@ -38,6 +38,13 @@
 .footer-nav__links {
   color: #000000;
   text-decoration: none;
+  padding: 20px 0px;
+  transition: var(--transition-dur-func);
+}
+
+.footer-nav__links:hover, .footer-nav__links:focus {
+  color: var(--accent-color);
+  transition: var(--transition-dur-func);
 }
 
 .footer-nav__items {
@@ -119,6 +126,7 @@
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
   background-color: #ffe550;
+  transition: var(--transition-dur-func);
 }
 
 .subscribing-text {
