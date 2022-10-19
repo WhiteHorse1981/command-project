@@ -782,7 +782,7 @@ svg {
   .slider {
     border: 14px solid var(--border-yellow-color);
     min-width: 0;
-    width: 340px;
+    width: 320px;
     border-radius: 50%;
     margin-top: -15px;
     margin-left: 40px;
@@ -859,7 +859,8 @@ svg {
   .slider {
     border: 26px solid var(--border-yellow-color);
     min-width: 0;
-    width: 592px;
+    width: 580px;
+    height: 580px;
     border-radius: 50%;
     margin-top: -15px;
     margin-left: 40px;
@@ -867,6 +868,8 @@ svg {
   }
 
   .slider.slick-initialized.slick-slider {
+    width: 580px;
+    height: 580px;
     position: relative;
     top: -235px;
   }
